@@ -12,4 +12,5 @@ func printverapp(version int8) {
 
 func main() {
 	printverapp(varApp)
+	fmt.Println("hello world")
 }
