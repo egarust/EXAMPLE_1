@@ -12,5 +12,8 @@ func printverapp(version int8) {
 
 func main() {
 	printverapp(varApp)
-	fmt.Println("hello world")
+	for i := 0; i < 5; i++ {
+		fmt.Println("hello world")
+	}
+
 }
